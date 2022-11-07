@@ -38,6 +38,8 @@ let value2 = 2;
 let arr = [value1, value2];
 [value2, value1] = [value1, value2];
 // This made sense (lines 38-41) until attempting this exericse. I'm not sure if this was done correctly.
+// I thought it should just be a real simple [arr[0], arr[1]] = [arr[1], arr[0]], but that wasn't working until I looked at the solution, it was coming back as;
+// arr = [1, 1]
 ('raceResults()');
 //
 //  first attempt raceResults
